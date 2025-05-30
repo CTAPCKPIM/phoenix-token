@@ -1,0 +1,23 @@
+{
+  "name": "phoenix-token",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "node": "npx hardhat node",
+    "build": "npx hardhat compile",
+    "test": "npx hardhat test",
+    "coverage": "npx hardhat coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@openzeppelin/contracts-upgradeable": "^5.3.0",
+    "@openzeppelin/hardhat-upgrades": "^3.9.0",
+    "dotenv": "^16.5.0",
+    "hardhat": "^2.24.1",
+    "solidity-coverage": "^0.8.16"
+  }
+}
