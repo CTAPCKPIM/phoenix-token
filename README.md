@@ -1,6 +1,6 @@
 # Phoenix Token: Upgradeable ERC-20 Standard Token
 
-![Code Coverage](https://img.shields.io/badge/coverage-100%25-brightgreen) ![License](https://img.shields.io/badge/License-MIT-blue.svg) ![CI Status](https://github.com/CTAPCKPIM/phoenix-token/actions/workflows/test.yml/badge.svg)
+![Code Coverage](https://img.shields.io/badge/Coverage-100%25-brightgreen) ![License](https://img.shields.io/badge/License-MIT-blue.svg) ![CI Status](https://github.com/CTAPCKPIM/phoenix-token/actions/workflows/test.yml/badge.svg)
 
 This project is an implementation of an upgradeable ERC-20 standard token named "Phoenix Token". It includes core ERC-20 functionality along with additional mint and burn capabilities, the access to which is controlled by the contract owner. The OpenZeppelin Upgrades library is used to enable contract upgrades. GitHub Actions is used for automated testing.
 
