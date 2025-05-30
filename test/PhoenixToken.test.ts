@@ -1,8 +1,15 @@
 import { loadFixture } from "@nomicfoundation/hardhat-toolbox/network-helpers";
-import { anyValue } from "@nomicfoundation/hardhat-chai-matchers/withArgs";
 import { expect } from "chai";
 import { ethers } from "hardhat";
-import { amount, amountToBurn, amountToMint, zeroAmount, deployPhoenixTokenFixture, initialSupply, amountToWithdraw } from "./PhoenixToken.fixture";
+import {
+    amount,
+    amountToBurn,
+    amountToMint,
+    initialSupply,
+    amountToWithdraw,
+    zeroAmount,
+    deployPhoenixTokenFixture,
+} from "./PhoenixToken.fixture";
 
 describe("PhoenixToken", function () {
     // Define the fixture
