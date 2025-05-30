@@ -22,10 +22,6 @@ contract PhoenixToken is ERC20Upgradeable, OwnableUpgradeable {
     error UnexpectedCallError(address _address);
 
     /**
-     * @notice All variables:
-     */
-
-    /**
      * @notice All events:
      */
     event Minted(address indexed _to, uint256 _amount);
